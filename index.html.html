@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Prakash</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&display=swap">
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#f6f7f2;--ink:#14213d;--mute:#4b5671;--line:#cfd6e4;--card:#fff;--hl:#ffd23f;--btn:#14213d;--btnt:#fff}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*:before,*:after{box-sizing:inherit}
+body{margin:0;font-family:'Bricolage Grotesque',system-ui,-apple-system,'Segoe UI',sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;
+background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:32px 32px;background-attachment:fixed}
+.wrap{max-width:860px;margin:0 auto;padding:0 20px}
+section{padding:48px 0}
+h1{font-size:clamp(2.2rem,7vw,4rem);line-height:1.05;font-weight:800;margin:0 0 16px;letter-spacing:-.02em}
+h1 mark{background:var(--hl);color:#14213d;padding:0 .15em}
+h2{font-size:1.6rem;margin:0 0 20px;font-weight:800}
+p{margin:0 0 12px;max-width:62ch}
+.lead{font-size:1.15rem;color:var(--mute)}
+.btn{display:inline-block;background:var(--btn);color:var(--btnt);padding:14px 24px;border-radius:6px;font-weight:600;text-decoration:none;margin:8px 10px 0 0}
+.btn.alt{background:transparent;color:var(--ink);border:2px solid var(--ink)}
+.btn:focus-visible{outline:3px solid var(--hl);outline-offset:3px}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.card{background:var(--card);border:2px solid var(--ink);border-radius:4px;padding:20px;box-shadow:6px 6px 0 var(--hl)}
+.card h3{margin:0 0 8px;font-size:1.2rem}
+.card ul{margin:0;padding-left:18px;color:var(--mute)}
+.fee{font-weight:800;font-size:1.3rem}
+.facts{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.facts span{background:var(--card);border:1px solid var(--ink);padding:6px 12px;border-radius:99px;font-size:.9rem}
+footer{padding:32px 0;color:var(--mute);font-size:.9rem;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+<section>
+  <h1>Welcome to the <mark>ARENA</mark></h1>
+  <p class="lead">Live online classes for Class 9-10 and JEE. Small batches, weekly tests, and a progress report for parents every week.</p> 
+  <a class="btn alt" href="#classes">See classes</a>
+  <div class="facts"><span>Faculty: Ujjawal Prakash</span><span>B.Tech, NIT Tiruchirappalli</span><span>Batches of 3-6 students</span></div>
+</section>
+
+<section id="classes">
+  <h2>Classes</h2>
+  <div class="grid">
+    <div class="card"><h3>Class 9-10(Boards Special)</h3>
+      <ul><li>Maths and Science (CBSE/state)</li><li>Concepts first, then practice</li><li>Board exam preparation and foundation</li>
+        <li>I can help you with other subjects as well!</li>
+      <li>Since i have scored 99% in my boards,i will share how you can achieve the same.</li></ul>
+      <p class="fee">I will share the details once you message me.</p></div>
+    <div class="card"><h3>JEE Main+Advanced</h3>
+      <ul><li> Maths,Physics,chemistry</li><li>Previous year questions, chapter-wise</li><li>Doubt-solving sessions</li></ul>
+      <p class="fee">I will share the details once you message me.</p></div>
+    <div class="card"><h3>1-on-1 doubt class</h3>
+      <ul><li>Pick the topic you are stuck on</li><li>Flexible timing</li><li>Recording shared after class</li></ul>
+      <p class="fee">I will share the details once you message me.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>How classes work</h2>
+  <div class="grid">
+    <div class="card"><h3>Live on Google Meet</h3><p>Handwritten on a tablet, like a real blackboard. Class recordings are shared for revision.</p></div>
+    <div class="card"><h3>Weekly test</h3><p>A short test every week so you know exactly what to fix next.</p></div>
+    <div class="card"><h3>Parent updates</h3><p>A short message each week on attendance, marks and what to work on.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>About me</h2>
+  <p>Hi, I'm Ujjawal Prakash, pursuing B.Tech at NIT Trichy. 
+ I focus on building strong concepts, and then practice to make sure you can apply them easily in exams.
+ I take care of one thing that i tell the students the real world application of the concepts that they are learning in their syllabus.
+  </p>
+</section>
+
+<section>
+  <h2>To start learning and to know more</h2>
+  <p>Message me your class and subject, and I'll share the information.</p>
+  <a class="btn" href="https://wa.me/919608938507?text=Hi%2C%20I%20want%20to%20book%20a%20free%20demo%20class" target="_blank" rel="noopener">Message on WhatsApp</a>
+  <a class="btn alt" href="mailto:navratri68@gmail.com">Email me</a>
+</section>
+<footer>© Ujjawal Prakash · NIT Trichy</footer>
+</div>
+</body>
+</html>
